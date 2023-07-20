@@ -1,0 +1,512 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: #fff !important;
+}
+
+.nav-logo {
+    position: relative;
+    z-index: 1;
+}
+
+
+.nav-logo ::after {
+    content: " ";
+    width: 400px;
+    height: 136px;
+    position: absolute;
+    top: -9px;
+    right: -40px;
+    z-index: -2;
+    background-color: #FFC000;
+    border-right: 10px solid #fff;
+    transform: skew(-34deg);
+
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 0 17px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #FFC000;
+}
+
+/* navbar */
+
+.main {
+    background: url(../images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.main-inner {
+    position: relative;
+}
+
+.main-heading {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.main-heading h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    padding: 14px 26px;
+    border: none;
+    background-color: #FFC000;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main-btn:hover {
+    color: #FFC000;
+    background-color: #fff;
+}
+
+/* main */
+
+.services {
+    background-color: #212529;
+    padding: 70px 0;
+}
+
+.count {
+    background-color: #000 !important;
+}
+
+.services-heading {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-heading h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.services-heading h5 {
+    color: #FFC000;
+}
+
+.cart {
+    margin-top: 40px;
+    color: #fff;
+}
+
+.cart .cart-image {
+    border-bottom: solid 20px #FFC000;
+}
+
+.cart .cart-image img{
+    width: 100%;
+}
+
+.cart .cart-content h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.cart .cart-content p {
+    font-size: 15px;
+}
+
+.main-btn1 {
+    padding: 12px 24px !important;
+    margin-top: 20px;
+}
+
+/* cart */
+
+
+.ready {
+    background: url(../images/ready.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.ready h2 {
+    font-size: 48px;
+    color: #FFC000;
+}
+
+.ready-btn {
+    margin-top: 30px;
+}
+
+/* ready */
+
+.skills-1 {
+    background-color: #FFC000 !important;
+}
+
+.skills {
+    padding: 30px;
+    background-color: #fff;
+    color: #212529;
+    border-radius: 15px;
+    /* width: 300px; */
+    margin-top: 30px;
+
+}
+
+.skills:hover {
+    background-color: #FFC000;
+}
+
+.skill-content h4 {
+    font-weight: 600;
+}
+
+.skill-content p {
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.skill-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-icon .icox i {
+    background-color: #212529;
+    color: #FFC000;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.skill-icon .skill-btn {
+    color: #212529;
+    text-decoration: none;
+    border-bottom: 1px solid #212529;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+.skill-icon .skill-btn .fa-angle-right {
+    padding-left: 5px;
+}
+
+/* skill */
+
+.count-content {
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.count-run span {
+    font-size: 48px;
+    font-weight: 600;
+    /* padding-right: 5px; */
+}
+
+.count-content .count-run .counter {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.count-content .count-data h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.count-btn {
+    padding: 8px 24px;
+    margin-top: 30px;
+}
+
+/* count */
+
+.newsletter {
+    background: url(../images/newsletter2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.newsletter .newsletter-content {
+    padding: 0 50px;
+}
+
+.newsletter .newsletter-content h2 {
+    font-weight: 600;
+    color: #FFC000;
+    font-size: 42px;
+}
+
+.newsletter .newsletter-content p {
+    font-size: 18px;
+}
+
+.input-group {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input-group .form-control {
+    height: 50px;
+    max-width: 50%;
+    border: #fff;
+    border-radius: 0;
+}
+
+.input-group .form-control:focus {
+    border: 2px solid #FFC000;
+}
+
+.input-group .input-group-btn .input-btn {
+    min-height: 50px;
+    border: none;
+    background-color: #FFC000;
+    padding: 0 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* newsletter */
+
+.footer {
+    padding: 60px 0;
+    border-bottom: 1px solid #212529;
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-1,
+.footer-2 {
+    padding: 0 30px;
+}
+
+.footer-1 .footer-1-content .footer-1-img {
+    margin-bottom: 10px;
+}
+
+.footer-1-content .footer-1-data p {
+    color: #fff;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.footer-1 .footer-1-content .footer-1-icons i {
+    background-color: #FFC000;
+    color: #212529;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 28px;
+    margin: 0 5px;
+}
+
+.footer-1 .footer-1-content .footer-1-icons i:hover {
+    background-color: #fff;
+    color: #212529;
+    cursor: pointer;
+}
+
+.footer-2-content .footer-2-head h5 {
+    color: #FFC000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer-2-menu .fo-2-menu {
+    padding: 0%;
+    margin-top: 20px;
+}
+
+.footer-2-menu .fo-2-menu li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.footer-2-menu .fo-2-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fo-2-menu li i {
+    color: #FFC000;
+    padding-right: 10px;
+}
+
+.footer-2-menu .fo-2-menu li a:hover {
+    color: #FFC000;
+}
+
+.footer-4-data {
+    margin-top: 20px;
+}
+
+.footer-4-data p {
+    color: #fff;
+    font-size: 17px;
+    margin: 14px 0;
+
+}
+
+.footer-4-data p i {
+    color: #FFC000;
+    font-size: 17px;
+    padding-right: 10px;
+
+}
+
+.footer-4-data p a {
+    color: #fff;
+    text-decoration: none;
+}
+/* footer */
+
+.foot{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .main-heading {
+        padding: 0;
+    }
+
+    .nav-logo ::after {
+        width: 430px;
+    }
+
+    .footer-1 .footer-1-content .footer-1-icons i {
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .main-heading {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .main-heading {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skill-content p {
+        margin-bottom: 30px;
+    }
+
+    .newsletter .newsletter-content {
+        padding: 0;
+    }
+
+    .input-group .input-group-btn .input-btn {
+        padding: 0 15px;
+    }
+    .footer-2-content .footer-2-head h5 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-heading h2 {
+        font-size: 40px;
+    }
+
+    .services-heading h2 {
+        font-size: 34px;
+    }
+
+    .ready h2 {
+        font-size: 40px;
+    }
+
+    .newsletter .newsletter-content h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills {
+        margin: 30px 40px 0 40px;
+    }
+    .cart {
+        margin: 40px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-heading h2 {
+        font-size: 32px;
+    }
+
+    .ready h2 {
+        font-size: 32px;
+    }
+
+    .services-heading h2 {
+        font-size: 28px;
+    }
+
+    .newsletter .newsletter-content h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .nav-logo ::after {
+        right: -20px;
+    }
+
+    .input-group .input-group-btn .input-btn {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .nav-logo ::after {
+        right: 0px;
+    }
+}
